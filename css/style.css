@@ -1,0 +1,19 @@
+#nav {
+    background-color:#339999;
+    color: white;
+    position:fixed;
+    top:0;
+    left:0;
+    right: 0;
+}
+
+#nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#nav ul li:hover {
+    color:red;
+}
